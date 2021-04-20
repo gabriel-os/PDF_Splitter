@@ -27,5 +27,20 @@ namespace PDF_Splitter
         {
 
         }
+
+        private void MainScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
