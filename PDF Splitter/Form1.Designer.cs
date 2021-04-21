@@ -89,7 +89,6 @@ namespace PDF_Splitter
             this.label1.Size = new System.Drawing.Size(185, 38);
             this.label1.TabIndex = 1;
             this.label1.Text = "PDF Splitter";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -202,7 +201,6 @@ namespace PDF_Splitter
             this.lblOrigin5.TabIndex = 11;
             this.lblOrigin5.Text = "Aguardando caminho";
             this.lblOrigin5.Visible = false;
-            this.lblOrigin5.Click += new System.EventHandler(this.label7_Click);
             // 
             // lblSize1
             // 
@@ -276,7 +274,6 @@ namespace PDF_Splitter
             this.cbSize4.Size = new System.Drawing.Size(78, 25);
             this.cbSize4.TabIndex = 20;
             this.cbSize4.Visible = false;
-            this.cbSize4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
             // lblSize4
             // 
