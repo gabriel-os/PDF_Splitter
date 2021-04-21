@@ -348,6 +348,7 @@ namespace PDF_Splitter
             this.btnDestiny1.TabIndex = 27;
             this.btnDestiny1.Text = "Destino...";
             this.btnDestiny1.UseVisualStyleBackColor = false;
+            this.btnDestiny1.Click += new System.EventHandler(this.btnDestiny1_Click);
             // 
             // btnOrigin5
             // 
@@ -468,7 +469,7 @@ namespace PDF_Splitter
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(611, 865);
+            this.ClientSize = new System.Drawing.Size(571, 838);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSplit);
             this.Controls.Add(this.lblDestiny5);
