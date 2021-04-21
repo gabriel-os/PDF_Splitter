@@ -49,17 +49,40 @@ namespace PDF_Splitter
 
         private void btnOrigin1_Click(object sender, EventArgs e)
         {
+            GetFolderPath(sender);
+        }
+
+        public void GetFolderPath(object sender) {
+
+            Button btn = sender as Button;
+            string nameButton = btn.Name;
+            string numRow = "";
+            Label lbl;
+
+            if (nameButton.Contains("Origin"))
+            {
+
+                numRow = nameButton.Substring(nameButton.Length - 1, 1);
+                lbl = this.Controls.Find("lblOrigin" + numRow, true).FirstOrDefault() as Label;
+            }
+            else {
+                numRow = nameButton.Substring(nameButton.Length - 1, 1);
+                lbl = this.Controls.Find("lblDestiny" + numRow, true).FirstOrDefault() as Label;
+            }
+
+
             FolderBrowserDialog fbd = new FolderBrowserDialog();
             fbd.RootFolder = Environment.SpecialFolder.MyDocuments;
 
             if (fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
-            {
-                MessageBox.Show("FOI");
+            { 
+                lbl.Text = fbd.SelectedPath;
 
             }
-            else {
+            else
+            {
                 //If not select folder 
-                MessageBox.Show("Nenhuma pasta foi selecionada. Tente novamente");
+                MessageBox.Show("Nenhuma pasta foi selecionada. Cancelando...");
             }
         }
     }
