@@ -30,55 +30,55 @@ namespace PDF_Splitter
 		private void InitializeComponent()
 		{
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOrigin1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.btnDestiny2 = new System.Windows.Forms.Button();
+            this.btnDestiny3 = new System.Windows.Forms.Button();
+            this.btnDestiny4 = new System.Windows.Forms.Button();
+            this.btnDestiny5 = new System.Windows.Forms.Button();
+            this.lblOrigin1 = new System.Windows.Forms.Label();
+            this.lblOrigin2 = new System.Windows.Forms.Label();
+            this.lblOrigin3 = new System.Windows.Forms.Label();
+            this.lblOrigin4 = new System.Windows.Forms.Label();
+            this.lblOrigin5 = new System.Windows.Forms.Label();
+            this.lblSize1 = new System.Windows.Forms.Label();
+            this.cbSize1 = new System.Windows.Forms.ComboBox();
+            this.cbSize2 = new System.Windows.Forms.ComboBox();
+            this.lblSize2 = new System.Windows.Forms.Label();
+            this.cbSize3 = new System.Windows.Forms.ComboBox();
+            this.lblSize3 = new System.Windows.Forms.Label();
+            this.cbSize4 = new System.Windows.Forms.ComboBox();
+            this.lblSize4 = new System.Windows.Forms.Label();
+            this.cbSize5 = new System.Windows.Forms.ComboBox();
+            this.lblSize5 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
+            this.lblDestiny1 = new System.Windows.Forms.Label();
+            this.btnDestiny1 = new System.Windows.Forms.Button();
+            this.btnOrigin5 = new System.Windows.Forms.Button();
+            this.btnOrigin4 = new System.Windows.Forms.Button();
+            this.btnOrigin3 = new System.Windows.Forms.Button();
+            this.btnOrigin2 = new System.Windows.Forms.Button();
+            this.lblDestiny2 = new System.Windows.Forms.Label();
+            this.lblDestiny3 = new System.Windows.Forms.Label();
+            this.lblDestiny4 = new System.Windows.Forms.Label();
+            this.lblDestiny5 = new System.Windows.Forms.Label();
+            this.btnSplit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnOrigin1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(189, 116);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 34);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Procurar...";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnOrigin1.BackColor = System.Drawing.Color.White;
+            this.btnOrigin1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnOrigin1.Location = new System.Drawing.Point(189, 116);
+            this.btnOrigin1.Name = "btnOrigin1";
+            this.btnOrigin1.Size = new System.Drawing.Size(98, 34);
+            this.btnOrigin1.TabIndex = 0;
+            this.btnOrigin1.Text = "Procurar...";
+            this.btnOrigin1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -101,214 +101,214 @@ namespace PDF_Splitter
             this.label2.TabIndex = 2;
             this.label2.Text = "Selecione até 5 arquivos";
             // 
-            // button2
+            // btnDestiny2
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(293, 187);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(98, 34);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Procurar...";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Visible = false;
+            this.btnDestiny2.BackColor = System.Drawing.Color.White;
+            this.btnDestiny2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDestiny2.Location = new System.Drawing.Point(293, 187);
+            this.btnDestiny2.Name = "btnDestiny2";
+            this.btnDestiny2.Size = new System.Drawing.Size(98, 34);
+            this.btnDestiny2.TabIndex = 3;
+            this.btnDestiny2.Text = "Procurar...";
+            this.btnDestiny2.UseVisualStyleBackColor = false;
+            this.btnDestiny2.Visible = false;
             // 
-            // button3
+            // btnDestiny3
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(293, 255);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(98, 34);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Procurar...";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Visible = false;
+            this.btnDestiny3.BackColor = System.Drawing.Color.White;
+            this.btnDestiny3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDestiny3.Location = new System.Drawing.Point(293, 255);
+            this.btnDestiny3.Name = "btnDestiny3";
+            this.btnDestiny3.Size = new System.Drawing.Size(98, 34);
+            this.btnDestiny3.TabIndex = 4;
+            this.btnDestiny3.Text = "Procurar...";
+            this.btnDestiny3.UseVisualStyleBackColor = false;
+            this.btnDestiny3.Visible = false;
             // 
-            // button4
+            // btnDestiny4
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(293, 318);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(98, 34);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Procurar...";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Visible = false;
+            this.btnDestiny4.BackColor = System.Drawing.Color.White;
+            this.btnDestiny4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDestiny4.Location = new System.Drawing.Point(293, 318);
+            this.btnDestiny4.Name = "btnDestiny4";
+            this.btnDestiny4.Size = new System.Drawing.Size(98, 34);
+            this.btnDestiny4.TabIndex = 5;
+            this.btnDestiny4.Text = "Procurar...";
+            this.btnDestiny4.UseVisualStyleBackColor = false;
+            this.btnDestiny4.Visible = false;
             // 
-            // button5
+            // btnDestiny5
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(293, 381);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(98, 34);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Procurar...";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Visible = false;
+            this.btnDestiny5.BackColor = System.Drawing.Color.White;
+            this.btnDestiny5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDestiny5.Location = new System.Drawing.Point(293, 381);
+            this.btnDestiny5.Name = "btnDestiny5";
+            this.btnDestiny5.Size = new System.Drawing.Size(98, 34);
+            this.btnDestiny5.TabIndex = 6;
+            this.btnDestiny5.Text = "Procurar...";
+            this.btnDestiny5.UseVisualStyleBackColor = false;
+            this.btnDestiny5.Visible = false;
             // 
-            // label3
+            // lblOrigin1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(12, 117);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(171, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Aguardando caminho";
+            this.lblOrigin1.AutoSize = true;
+            this.lblOrigin1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblOrigin1.Location = new System.Drawing.Point(12, 117);
+            this.lblOrigin1.Name = "lblOrigin1";
+            this.lblOrigin1.Size = new System.Drawing.Size(171, 20);
+            this.lblOrigin1.TabIndex = 7;
+            this.lblOrigin1.Text = "Aguardando caminho";
             // 
-            // label4
+            // lblOrigin2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(12, 187);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(171, 20);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Aguardando caminho";
-            this.label4.Visible = false;
+            this.lblOrigin2.AutoSize = true;
+            this.lblOrigin2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblOrigin2.Location = new System.Drawing.Point(12, 187);
+            this.lblOrigin2.Name = "lblOrigin2";
+            this.lblOrigin2.Size = new System.Drawing.Size(171, 20);
+            this.lblOrigin2.TabIndex = 8;
+            this.lblOrigin2.Text = "Aguardando caminho";
+            this.lblOrigin2.Visible = false;
             // 
-            // label5
+            // lblOrigin3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(12, 255);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(171, 20);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Aguardando caminho";
-            this.label5.Visible = false;
+            this.lblOrigin3.AutoSize = true;
+            this.lblOrigin3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblOrigin3.Location = new System.Drawing.Point(12, 255);
+            this.lblOrigin3.Name = "lblOrigin3";
+            this.lblOrigin3.Size = new System.Drawing.Size(171, 20);
+            this.lblOrigin3.TabIndex = 9;
+            this.lblOrigin3.Text = "Aguardando caminho";
+            this.lblOrigin3.Visible = false;
             // 
-            // label6
+            // lblOrigin4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(12, 318);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(171, 20);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Aguardando caminho";
-            this.label6.Visible = false;
+            this.lblOrigin4.AutoSize = true;
+            this.lblOrigin4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblOrigin4.Location = new System.Drawing.Point(12, 318);
+            this.lblOrigin4.Name = "lblOrigin4";
+            this.lblOrigin4.Size = new System.Drawing.Size(171, 20);
+            this.lblOrigin4.TabIndex = 10;
+            this.lblOrigin4.Text = "Aguardando caminho";
+            this.lblOrigin4.Visible = false;
             // 
-            // label7
+            // lblOrigin5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(12, 381);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(171, 20);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Aguardando caminho";
-            this.label7.Visible = false;
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.lblOrigin5.AutoSize = true;
+            this.lblOrigin5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblOrigin5.Location = new System.Drawing.Point(12, 381);
+            this.lblOrigin5.Name = "lblOrigin5";
+            this.lblOrigin5.Size = new System.Drawing.Size(171, 20);
+            this.lblOrigin5.TabIndex = 11;
+            this.lblOrigin5.Text = "Aguardando caminho";
+            this.lblOrigin5.Visible = false;
+            this.lblOrigin5.Click += new System.EventHandler(this.label7_Click);
             // 
-            // label8
+            // lblSize1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(12, 147);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 17);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Tamanho:";
-            this.label8.Visible = false;
+            this.lblSize1.AutoSize = true;
+            this.lblSize1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSize1.Location = new System.Drawing.Point(12, 147);
+            this.lblSize1.Name = "lblSize1";
+            this.lblSize1.Size = new System.Drawing.Size(65, 17);
+            this.lblSize1.TabIndex = 13;
+            this.lblSize1.Text = "Tamanho:";
+            this.lblSize1.Visible = false;
             // 
-            // comboBox1
+            // cbSize1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(88, 145);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(78, 25);
-            this.comboBox1.TabIndex = 14;
-            this.comboBox1.Visible = false;
+            this.cbSize1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbSize1.FormattingEnabled = true;
+            this.cbSize1.Location = new System.Drawing.Point(88, 145);
+            this.cbSize1.Name = "cbSize1";
+            this.cbSize1.Size = new System.Drawing.Size(78, 25);
+            this.cbSize1.TabIndex = 14;
+            this.cbSize1.Visible = false;
             // 
-            // comboBox2
+            // cbSize2
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(88, 215);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(78, 25);
-            this.comboBox2.TabIndex = 16;
-            this.comboBox2.Visible = false;
+            this.cbSize2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbSize2.FormattingEnabled = true;
+            this.cbSize2.Location = new System.Drawing.Point(88, 215);
+            this.cbSize2.Name = "cbSize2";
+            this.cbSize2.Size = new System.Drawing.Size(78, 25);
+            this.cbSize2.TabIndex = 16;
+            this.cbSize2.Visible = false;
             // 
-            // label9
+            // lblSize2
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(12, 218);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(65, 17);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "Tamanho:";
-            this.label9.Visible = false;
+            this.lblSize2.AutoSize = true;
+            this.lblSize2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSize2.Location = new System.Drawing.Point(12, 218);
+            this.lblSize2.Name = "lblSize2";
+            this.lblSize2.Size = new System.Drawing.Size(65, 17);
+            this.lblSize2.TabIndex = 15;
+            this.lblSize2.Text = "Tamanho:";
+            this.lblSize2.Visible = false;
             // 
-            // comboBox3
+            // cbSize3
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(88, 281);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(78, 25);
-            this.comboBox3.TabIndex = 18;
-            this.comboBox3.Visible = false;
+            this.cbSize3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbSize3.FormattingEnabled = true;
+            this.cbSize3.Location = new System.Drawing.Point(88, 281);
+            this.cbSize3.Name = "cbSize3";
+            this.cbSize3.Size = new System.Drawing.Size(78, 25);
+            this.cbSize3.TabIndex = 18;
+            this.cbSize3.Visible = false;
             // 
-            // label10
+            // lblSize3
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(12, 284);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 17);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "Tamanho:";
-            this.label10.Visible = false;
+            this.lblSize3.AutoSize = true;
+            this.lblSize3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSize3.Location = new System.Drawing.Point(12, 284);
+            this.lblSize3.Name = "lblSize3";
+            this.lblSize3.Size = new System.Drawing.Size(65, 17);
+            this.lblSize3.TabIndex = 17;
+            this.lblSize3.Text = "Tamanho:";
+            this.lblSize3.Visible = false;
             // 
-            // comboBox4
+            // cbSize4
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(88, 344);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(78, 25);
-            this.comboBox4.TabIndex = 20;
-            this.comboBox4.Visible = false;
-            this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
+            this.cbSize4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbSize4.FormattingEnabled = true;
+            this.cbSize4.Location = new System.Drawing.Point(88, 344);
+            this.cbSize4.Name = "cbSize4";
+            this.cbSize4.Size = new System.Drawing.Size(78, 25);
+            this.cbSize4.TabIndex = 20;
+            this.cbSize4.Visible = false;
+            this.cbSize4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
-            // label11
+            // lblSize4
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(12, 347);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(65, 17);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "Tamanho:";
-            this.label11.Visible = false;
+            this.lblSize4.AutoSize = true;
+            this.lblSize4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSize4.Location = new System.Drawing.Point(12, 347);
+            this.lblSize4.Name = "lblSize4";
+            this.lblSize4.Size = new System.Drawing.Size(65, 17);
+            this.lblSize4.TabIndex = 19;
+            this.lblSize4.Text = "Tamanho:";
+            this.lblSize4.Visible = false;
             // 
-            // comboBox5
+            // cbSize5
             // 
-            this.comboBox5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(88, 408);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(78, 25);
-            this.comboBox5.TabIndex = 22;
-            this.comboBox5.Visible = false;
+            this.cbSize5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbSize5.FormattingEnabled = true;
+            this.cbSize5.Location = new System.Drawing.Point(88, 408);
+            this.cbSize5.Name = "cbSize5";
+            this.cbSize5.Size = new System.Drawing.Size(78, 25);
+            this.cbSize5.TabIndex = 22;
+            this.cbSize5.Visible = false;
             // 
-            // label12
+            // lblSize5
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(12, 411);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(65, 17);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "Tamanho:";
-            this.label12.Visible = false;
+            this.lblSize5.AutoSize = true;
+            this.lblSize5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSize5.Location = new System.Drawing.Point(12, 411);
+            this.lblSize5.Name = "lblSize5";
+            this.lblSize5.Size = new System.Drawing.Size(65, 17);
+            this.lblSize5.TabIndex = 21;
+            this.lblSize5.Text = "Tamanho:";
+            this.lblSize5.Visible = false;
             // 
             // label14
             // 
@@ -330,129 +330,129 @@ namespace PDF_Splitter
             this.label15.TabIndex = 25;
             this.label15.Text = "Destino";
             // 
-            // label16
+            // lblDestiny1
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(408, 117);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(171, 20);
-            this.label16.TabIndex = 26;
-            this.label16.Text = "Aguardando caminho";
+            this.lblDestiny1.AutoSize = true;
+            this.lblDestiny1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDestiny1.Location = new System.Drawing.Point(408, 117);
+            this.lblDestiny1.Name = "lblDestiny1";
+            this.lblDestiny1.Size = new System.Drawing.Size(171, 20);
+            this.lblDestiny1.TabIndex = 26;
+            this.lblDestiny1.Text = "Aguardando caminho";
             // 
-            // button6
+            // btnDestiny1
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(293, 117);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(98, 34);
-            this.button6.TabIndex = 27;
-            this.button6.Text = "Procurar...";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnDestiny1.BackColor = System.Drawing.Color.White;
+            this.btnDestiny1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDestiny1.Location = new System.Drawing.Point(293, 117);
+            this.btnDestiny1.Name = "btnDestiny1";
+            this.btnDestiny1.Size = new System.Drawing.Size(98, 34);
+            this.btnDestiny1.TabIndex = 27;
+            this.btnDestiny1.Text = "Procurar...";
+            this.btnDestiny1.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btnOrigin5
             // 
-            this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(189, 381);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(98, 34);
-            this.button7.TabIndex = 31;
-            this.button7.Text = "Procurar...";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Visible = false;
+            this.btnOrigin5.BackColor = System.Drawing.Color.White;
+            this.btnOrigin5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnOrigin5.Location = new System.Drawing.Point(189, 381);
+            this.btnOrigin5.Name = "btnOrigin5";
+            this.btnOrigin5.Size = new System.Drawing.Size(98, 34);
+            this.btnOrigin5.TabIndex = 31;
+            this.btnOrigin5.Text = "Procurar...";
+            this.btnOrigin5.UseVisualStyleBackColor = false;
+            this.btnOrigin5.Visible = false;
             // 
-            // button8
+            // btnOrigin4
             // 
-            this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(189, 318);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(98, 34);
-            this.button8.TabIndex = 30;
-            this.button8.Text = "Procurar...";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Visible = false;
+            this.btnOrigin4.BackColor = System.Drawing.Color.White;
+            this.btnOrigin4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnOrigin4.Location = new System.Drawing.Point(189, 318);
+            this.btnOrigin4.Name = "btnOrigin4";
+            this.btnOrigin4.Size = new System.Drawing.Size(98, 34);
+            this.btnOrigin4.TabIndex = 30;
+            this.btnOrigin4.Text = "Procurar...";
+            this.btnOrigin4.UseVisualStyleBackColor = false;
+            this.btnOrigin4.Visible = false;
             // 
-            // button9
+            // btnOrigin3
             // 
-            this.button9.BackColor = System.Drawing.Color.White;
-            this.button9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(189, 255);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(98, 34);
-            this.button9.TabIndex = 29;
-            this.button9.Text = "Procurar...";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Visible = false;
+            this.btnOrigin3.BackColor = System.Drawing.Color.White;
+            this.btnOrigin3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnOrigin3.Location = new System.Drawing.Point(189, 255);
+            this.btnOrigin3.Name = "btnOrigin3";
+            this.btnOrigin3.Size = new System.Drawing.Size(98, 34);
+            this.btnOrigin3.TabIndex = 29;
+            this.btnOrigin3.Text = "Procurar...";
+            this.btnOrigin3.UseVisualStyleBackColor = false;
+            this.btnOrigin3.Visible = false;
             // 
-            // button10
+            // btnOrigin2
             // 
-            this.button10.BackColor = System.Drawing.Color.White;
-            this.button10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(189, 187);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(98, 34);
-            this.button10.TabIndex = 28;
-            this.button10.Text = "Procurar...";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Visible = false;
+            this.btnOrigin2.BackColor = System.Drawing.Color.White;
+            this.btnOrigin2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnOrigin2.Location = new System.Drawing.Point(189, 187);
+            this.btnOrigin2.Name = "btnOrigin2";
+            this.btnOrigin2.Size = new System.Drawing.Size(98, 34);
+            this.btnOrigin2.TabIndex = 28;
+            this.btnOrigin2.Text = "Procurar...";
+            this.btnOrigin2.UseVisualStyleBackColor = false;
+            this.btnOrigin2.Visible = false;
             // 
-            // label13
+            // lblDestiny2
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(408, 193);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(171, 20);
-            this.label13.TabIndex = 32;
-            this.label13.Text = "Aguardando caminho";
-            this.label13.Visible = false;
+            this.lblDestiny2.AutoSize = true;
+            this.lblDestiny2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDestiny2.Location = new System.Drawing.Point(408, 193);
+            this.lblDestiny2.Name = "lblDestiny2";
+            this.lblDestiny2.Size = new System.Drawing.Size(171, 20);
+            this.lblDestiny2.TabIndex = 32;
+            this.lblDestiny2.Text = "Aguardando caminho";
+            this.lblDestiny2.Visible = false;
             // 
-            // label17
+            // lblDestiny3
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(408, 261);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(171, 20);
-            this.label17.TabIndex = 33;
-            this.label17.Text = "Aguardando caminho";
-            this.label17.Visible = false;
+            this.lblDestiny3.AutoSize = true;
+            this.lblDestiny3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDestiny3.Location = new System.Drawing.Point(408, 261);
+            this.lblDestiny3.Name = "lblDestiny3";
+            this.lblDestiny3.Size = new System.Drawing.Size(171, 20);
+            this.lblDestiny3.TabIndex = 33;
+            this.lblDestiny3.Text = "Aguardando caminho";
+            this.lblDestiny3.Visible = false;
             // 
-            // label18
+            // lblDestiny4
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(408, 324);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(171, 20);
-            this.label18.TabIndex = 34;
-            this.label18.Text = "Aguardando caminho";
-            this.label18.Visible = false;
+            this.lblDestiny4.AutoSize = true;
+            this.lblDestiny4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDestiny4.Location = new System.Drawing.Point(408, 324);
+            this.lblDestiny4.Name = "lblDestiny4";
+            this.lblDestiny4.Size = new System.Drawing.Size(171, 20);
+            this.lblDestiny4.TabIndex = 34;
+            this.lblDestiny4.Text = "Aguardando caminho";
+            this.lblDestiny4.Visible = false;
             // 
-            // label19
+            // lblDestiny5
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(408, 387);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(171, 20);
-            this.label19.TabIndex = 35;
-            this.label19.Text = "Aguardando caminho";
-            this.label19.Visible = false;
+            this.lblDestiny5.AutoSize = true;
+            this.lblDestiny5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDestiny5.Location = new System.Drawing.Point(408, 387);
+            this.lblDestiny5.Name = "lblDestiny5";
+            this.lblDestiny5.Size = new System.Drawing.Size(171, 20);
+            this.lblDestiny5.TabIndex = 35;
+            this.lblDestiny5.Text = "Aguardando caminho";
+            this.lblDestiny5.Visible = false;
             // 
-            // button11
+            // btnSplit
             // 
-            this.button11.BackColor = System.Drawing.Color.White;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(427, 454);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(121, 49);
-            this.button11.TabIndex = 36;
-            this.button11.Text = "Separar";
-            this.button11.UseVisualStyleBackColor = false;
+            this.btnSplit.BackColor = System.Drawing.Color.White;
+            this.btnSplit.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSplit.Location = new System.Drawing.Point(427, 454);
+            this.btnSplit.Name = "btnSplit";
+            this.btnSplit.Size = new System.Drawing.Size(121, 49);
+            this.btnSplit.TabIndex = 36;
+            this.btnSplit.Text = "Separar";
+            this.btnSplit.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -471,41 +471,41 @@ namespace PDF_Splitter
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(611, 520);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.label16);
+            this.Controls.Add(this.btnSplit);
+            this.Controls.Add(this.lblDestiny5);
+            this.Controls.Add(this.lblDestiny4);
+            this.Controls.Add(this.lblDestiny3);
+            this.Controls.Add(this.lblDestiny2);
+            this.Controls.Add(this.btnOrigin5);
+            this.Controls.Add(this.btnOrigin4);
+            this.Controls.Add(this.btnOrigin3);
+            this.Controls.Add(this.btnOrigin2);
+            this.Controls.Add(this.btnDestiny1);
+            this.Controls.Add(this.lblDestiny1);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.cbSize5);
+            this.Controls.Add(this.lblSize5);
+            this.Controls.Add(this.cbSize4);
+            this.Controls.Add(this.lblSize4);
+            this.Controls.Add(this.cbSize3);
+            this.Controls.Add(this.lblSize3);
+            this.Controls.Add(this.cbSize2);
+            this.Controls.Add(this.lblSize2);
+            this.Controls.Add(this.cbSize1);
+            this.Controls.Add(this.lblSize1);
+            this.Controls.Add(this.lblOrigin5);
+            this.Controls.Add(this.lblOrigin4);
+            this.Controls.Add(this.lblOrigin3);
+            this.Controls.Add(this.lblOrigin2);
+            this.Controls.Add(this.lblOrigin1);
+            this.Controls.Add(this.btnDestiny5);
+            this.Controls.Add(this.btnDestiny4);
+            this.Controls.Add(this.btnDestiny3);
+            this.Controls.Add(this.btnDestiny2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnOrigin1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -521,41 +521,41 @@ namespace PDF_Splitter
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOrigin1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnDestiny2;
+        private System.Windows.Forms.Button btnDestiny3;
+        private System.Windows.Forms.Button btnDestiny4;
+        private System.Windows.Forms.Button btnDestiny5;
+        private System.Windows.Forms.Label lblOrigin1;
+        private System.Windows.Forms.Label lblOrigin2;
+        private System.Windows.Forms.Label lblOrigin3;
+        private System.Windows.Forms.Label lblOrigin4;
+        private System.Windows.Forms.Label lblOrigin5;
+        private System.Windows.Forms.Label lblSize1;
+        private System.Windows.Forms.ComboBox cbSize1;
+        private System.Windows.Forms.ComboBox cbSize2;
+        private System.Windows.Forms.Label lblSize2;
+        private System.Windows.Forms.ComboBox cbSize3;
+        private System.Windows.Forms.Label lblSize3;
+        private System.Windows.Forms.ComboBox cbSize4;
+        private System.Windows.Forms.Label lblSize4;
+        private System.Windows.Forms.ComboBox cbSize5;
+        private System.Windows.Forms.Label lblSize5;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Label lblDestiny1;
+        private System.Windows.Forms.Button btnDestiny1;
+        private System.Windows.Forms.Button btnOrigin5;
+        private System.Windows.Forms.Button btnOrigin4;
+        private System.Windows.Forms.Button btnOrigin3;
+        private System.Windows.Forms.Button btnOrigin2;
+        private System.Windows.Forms.Label lblDestiny2;
+        private System.Windows.Forms.Label lblDestiny3;
+        private System.Windows.Forms.Label lblDestiny4;
+        private System.Windows.Forms.Label lblDestiny5;
+        private System.Windows.Forms.Button btnSplit;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
