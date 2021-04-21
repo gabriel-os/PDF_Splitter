@@ -79,6 +79,7 @@ namespace PDF_Splitter
             this.btnOrigin1.TabIndex = 0;
             this.btnOrigin1.Text = "Procurar...";
             this.btnOrigin1.UseVisualStyleBackColor = false;
+            this.btnOrigin1.Click += new System.EventHandler(this.btnOrigin1_Click);
             // 
             // label1
             // 
@@ -450,6 +451,7 @@ namespace PDF_Splitter
             this.btnSplit.TabIndex = 36;
             this.btnSplit.Text = "Separar";
             this.btnSplit.UseVisualStyleBackColor = false;
+            this.btnSplit.Click += new System.EventHandler(this.btnSplit_Click);
             // 
             // pictureBox1
             // 
