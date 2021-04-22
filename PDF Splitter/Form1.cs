@@ -29,9 +29,16 @@ namespace PDF_Splitter
 
         private void btnSplit_Click(object sender, EventArgs e)
         {
-            EventHandler ev = new EventHandler();
-            ev.UnhideGUI(sender);
-            
+            //EventHandler ev = new EventHandler();
+            //ev.UnhideGUI(sender);
+            HandPDF hp = new HandPDF();
+
+            //hp.SplitPDF(@"D:\Bibliotecas\Desktop\Teste\Texto_10.pdf", @"D:\Bibliotecas\Desktop\Teste");
+
+            //hp.DeleteTempFolder(@"D:\Bibliotecas\Desktop\Teste");
+
+            MessageBox.Show( hp.MapSplitRule(@"D:\Bibliotecas\Desktop\Teste\tmp", 4000000));
+
         }
         public string GetValueLabelDestiny(string numberRow) {
             Label lbl_text = this.Controls.Find("lblDestiny" + numberRow, true).FirstOrDefault() as Label;
@@ -87,11 +94,8 @@ namespace PDF_Splitter
 
                 if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(ofd.FileName))
                 {
-                    EventHandler ev = new EventHandler();
                     lbl.Text = ofd.FileName;
-                    Label lbl_size = this.Controls.Find("lblSize" + numRow, true).FirstOrDefault() as Label;
-                    lbl_size.Visible = true;
-                    ev.UnhideGUI(sender);
+                    
 
                 }
                 else
@@ -110,7 +114,12 @@ namespace PDF_Splitter
                 if (fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
                 {
                     lbl.Text = fbd.SelectedPath;
-
+                    EventHandler ev = new EventHandler();
+                    Label lbl_size = this.Controls.Find("lblSize" + numRow, true).FirstOrDefault() as Label;
+                    ComboBox cb_size = this.Controls.Find("cbSize" + numRow, true).FirstOrDefault() as ComboBox;
+                    lbl_size.Visible = true;
+                    cb_size.Visible = true;
+                    ev.UnhideGUI(sender);
                 }
                 else
                 {

@@ -1,6 +1,9 @@
 ﻿
 using System;
+using System.Collections;
 using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 
@@ -8,28 +11,33 @@ namespace PDF_Splitter
 {
     class HandPDF
     {
-        public void SplitPDF()
+        public void SplitPDF(string source_file, string result)
         {
+            string tempPath = result + @"\tmp\";
+            //Create Folder temporary
+            // If directory does not exist, create it. 
+            if (!Directory.Exists(tempPath))
+            {
+                Directory.CreateDirectory(tempPath);
+            }
 
-            //variables
-            String source_file = @"D:/Drive/Nerd/Estudos/Faculdade/EDS/Livros/Texto_10.pdf";
-            String result = @"D:/Bibliotecas/Desktop/Teste";
+
 
             PdfCopy copy;
-            //create PdfReader object
+            
             PdfReader reader = new PdfReader(source_file);
 
             for (int i = 1; i <= reader.NumberOfPages; i++)
             {
-                //create Document object
+                
                 Document document = new Document();
-                copy = new PdfCopy(document, new FileStream(result + i + ".pdf", FileMode.Create));
+                copy = new PdfCopy(document, new FileStream(tempPath + i + ".pdf", FileMode.Create));
                 copy.SetFullCompression();
-                //open the document
+                
                 document.Open();
-                //add page to PdfCopy
+                
                 copy.AddPage(copy.GetImportedPage(reader, i));
-                //close the document object
+                
                 document.Close();
             }
 
@@ -37,7 +45,46 @@ namespace PDF_Splitter
 
         }
 
+        public void AppendPDF() { 
+            
+        
+        }
 
+        public string MapSplitRule(string path, long maxSize) {
+            long tmp = 0;
+            string tmpList = "";
+            //var a = Directory.GetFiles(path, "*.pdf").OrderBy(f => f.CreationTime);
+
+            DirectoryInfo info = new DirectoryInfo(path);
+            FileInfo[] a = info.GetFiles().OrderBy(p => p.CreationTime).ToArray();
+
+            long b = 0;
+            foreach (FileInfo name in a)
+            {
+
+                if ((tmp + name.Length) > maxSize)
+                {
+                    //Sep each file
+                    tmpList += "&&%%&&%%&&%%";
+                    tmp = 0;
+                }
+                else {
+                    tmpList = tmpList + ((name.Name).ToUpper()).Replace(".PDF","") + "$&*";
+                    tmp += name.Length;
+                } 
+            }
+
+            return tmpList;
+        }
+
+        public void DeleteTempFolder(string result) {
+            string tempPath = result + @"\tmp\";
+
+            if (Directory.Exists(tempPath))
+            {
+                Directory.Delete(tempPath, true);
+            }
+        }
 
     }
 
