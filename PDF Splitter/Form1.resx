@@ -57,11 +57,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="cbSize1.Locked" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="cbSize2.Locked" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="cbSize3.Locked" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="cbSize4.Locked" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="cbSize5.Locked" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAAgNJREFUWEfF1j9IVVEAx/FL1pIgzY62lIOjRENQTkH/wMEMjFaHGhRqaAkqaCoI
+        vAAADrwBlbxySQAAAgNJREFUWEfF1j9IVVEAx/FL1pIgzY62lIOjRENQTkH/wMEMjFaHGhRqaAkqaCoI
         ioqGhkAlHSICJ4UgaJUIMcOpLIKgoj/0v+/39g5cLqfnw3vu8wcfuOc+eL9z/517sw3KZhz5t9n+7MQT
         3MtHbUwvbuA7/uAaak0XzuMOFmFp8AmnUFss9zQXS4On+IzdqCXNynUbH+GNmDxrlT/GNCaQPGuV/8AB
         eBMeQvLsgtc2Vq5zuIKX6ECyeOSz6McJxMo99dvxFWeQNJZb4o31orFd9Brd8Lq/gxNOEv/I0+6RW14u

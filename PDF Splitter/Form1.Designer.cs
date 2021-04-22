@@ -52,8 +52,6 @@ namespace PDF_Splitter
             this.lblSize4 = new System.Windows.Forms.Label();
             this.cbSize5 = new System.Windows.Forms.ComboBox();
             this.lblSize5 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.lblDestiny1 = new System.Windows.Forms.Label();
             this.btnDestiny1 = new System.Windows.Forms.Button();
             this.btnOrigin5 = new System.Windows.Forms.Button();
@@ -111,7 +109,7 @@ namespace PDF_Splitter
             this.btnDestiny2.TabIndex = 3;
             this.btnDestiny2.Text = "Destino...";
             this.btnDestiny2.UseVisualStyleBackColor = false;
-            this.btnDestiny2.Visible = false;
+            this.btnDestiny2.Click += new System.EventHandler(this.btnDestiny2_Click);
             // 
             // btnDestiny3
             // 
@@ -123,7 +121,7 @@ namespace PDF_Splitter
             this.btnDestiny3.TabIndex = 4;
             this.btnDestiny3.Text = "Destino...";
             this.btnDestiny3.UseVisualStyleBackColor = false;
-            this.btnDestiny3.Visible = false;
+            this.btnDestiny3.Click += new System.EventHandler(this.btnDestiny3_Click);
             // 
             // btnDestiny4
             // 
@@ -135,7 +133,7 @@ namespace PDF_Splitter
             this.btnDestiny4.TabIndex = 5;
             this.btnDestiny4.Text = "Destino...";
             this.btnDestiny4.UseVisualStyleBackColor = false;
-            this.btnDestiny4.Visible = false;
+            this.btnDestiny4.Click += new System.EventHandler(this.btnDestiny4_Click);
             // 
             // btnDestiny5
             // 
@@ -147,7 +145,7 @@ namespace PDF_Splitter
             this.btnDestiny5.TabIndex = 6;
             this.btnDestiny5.Text = "Destino...";
             this.btnDestiny5.UseVisualStyleBackColor = false;
-            this.btnDestiny5.Visible = false;
+            this.btnDestiny5.Click += new System.EventHandler(this.btnDestiny5_Click);
             // 
             // lblOrigin1
             // 
@@ -168,7 +166,6 @@ namespace PDF_Splitter
             this.lblOrigin2.Size = new System.Drawing.Size(171, 20);
             this.lblOrigin2.TabIndex = 8;
             this.lblOrigin2.Text = "Aguardando caminho";
-            this.lblOrigin2.Visible = false;
             // 
             // lblOrigin3
             // 
@@ -179,7 +176,6 @@ namespace PDF_Splitter
             this.lblOrigin3.Size = new System.Drawing.Size(171, 20);
             this.lblOrigin3.TabIndex = 9;
             this.lblOrigin3.Text = "Aguardando caminho";
-            this.lblOrigin3.Visible = false;
             // 
             // lblOrigin4
             // 
@@ -190,7 +186,6 @@ namespace PDF_Splitter
             this.lblOrigin4.Size = new System.Drawing.Size(171, 20);
             this.lblOrigin4.TabIndex = 10;
             this.lblOrigin4.Text = "Aguardando caminho";
-            this.lblOrigin4.Visible = false;
             // 
             // lblOrigin5
             // 
@@ -201,7 +196,6 @@ namespace PDF_Splitter
             this.lblOrigin5.Size = new System.Drawing.Size(171, 20);
             this.lblOrigin5.TabIndex = 11;
             this.lblOrigin5.Text = "Aguardando caminho";
-            this.lblOrigin5.Visible = false;
             // 
             // lblSize1
             // 
@@ -212,27 +206,54 @@ namespace PDF_Splitter
             this.lblSize1.Size = new System.Drawing.Size(79, 20);
             this.lblSize1.TabIndex = 13;
             this.lblSize1.Text = "Tamanho:";
-            this.lblSize1.Visible = false;
             // 
             // cbSize1
             // 
+            this.cbSize1.BackColor = System.Drawing.Color.White;
+            this.cbSize1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSize1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbSize1.FormattingEnabled = true;
+            this.cbSize1.Items.AddRange(new object[] {
+            "1MB",
+            "2MB",
+            "3MB",
+            "4MB",
+            "5MB",
+            "6MB",
+            "7MB",
+            "8MB",
+            "9MB",
+            "10MB",
+            "11MB",
+            "12MB"});
             this.cbSize1.Location = new System.Drawing.Point(119, 203);
             this.cbSize1.Name = "cbSize1";
             this.cbSize1.Size = new System.Drawing.Size(78, 25);
             this.cbSize1.TabIndex = 14;
-            this.cbSize1.Visible = false;
             // 
             // cbSize2
             // 
+            this.cbSize2.BackColor = System.Drawing.Color.White;
+            this.cbSize2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSize2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbSize2.FormattingEnabled = true;
+            this.cbSize2.Items.AddRange(new object[] {
+            "1MB",
+            "2MB",
+            "3MB",
+            "4MB",
+            "5MB",
+            "6MB",
+            "7MB",
+            "8MB",
+            "9MB",
+            "10MB",
+            "11MB",
+            "12MB"});
             this.cbSize2.Location = new System.Drawing.Point(119, 349);
             this.cbSize2.Name = "cbSize2";
             this.cbSize2.Size = new System.Drawing.Size(78, 25);
             this.cbSize2.TabIndex = 16;
-            this.cbSize2.Visible = false;
             // 
             // lblSize2
             // 
@@ -243,17 +264,30 @@ namespace PDF_Splitter
             this.lblSize2.Size = new System.Drawing.Size(79, 20);
             this.lblSize2.TabIndex = 15;
             this.lblSize2.Text = "Tamanho:";
-            this.lblSize2.Visible = false;
             // 
             // cbSize3
             // 
+            this.cbSize3.BackColor = System.Drawing.Color.White;
+            this.cbSize3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSize3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbSize3.FormattingEnabled = true;
+            this.cbSize3.Items.AddRange(new object[] {
+            "1MB",
+            "2MB",
+            "3MB",
+            "4MB",
+            "5MB",
+            "6MB",
+            "7MB",
+            "8MB",
+            "9MB",
+            "10MB",
+            "11MB",
+            "12MB"});
             this.cbSize3.Location = new System.Drawing.Point(119, 493);
             this.cbSize3.Name = "cbSize3";
             this.cbSize3.Size = new System.Drawing.Size(78, 25);
             this.cbSize3.TabIndex = 18;
-            this.cbSize3.Visible = false;
             // 
             // lblSize3
             // 
@@ -264,17 +298,30 @@ namespace PDF_Splitter
             this.lblSize3.Size = new System.Drawing.Size(79, 20);
             this.lblSize3.TabIndex = 17;
             this.lblSize3.Text = "Tamanho:";
-            this.lblSize3.Visible = false;
             // 
             // cbSize4
             // 
+            this.cbSize4.BackColor = System.Drawing.Color.White;
+            this.cbSize4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSize4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbSize4.FormattingEnabled = true;
+            this.cbSize4.Items.AddRange(new object[] {
+            "1MB",
+            "2MB",
+            "3MB",
+            "4MB",
+            "5MB",
+            "6MB",
+            "7MB",
+            "8MB",
+            "9MB",
+            "10MB",
+            "11MB",
+            "12MB"});
             this.cbSize4.Location = new System.Drawing.Point(119, 622);
             this.cbSize4.Name = "cbSize4";
             this.cbSize4.Size = new System.Drawing.Size(78, 25);
             this.cbSize4.TabIndex = 20;
-            this.cbSize4.Visible = false;
             // 
             // lblSize4
             // 
@@ -285,17 +332,30 @@ namespace PDF_Splitter
             this.lblSize4.Size = new System.Drawing.Size(79, 20);
             this.lblSize4.TabIndex = 19;
             this.lblSize4.Text = "Tamanho:";
-            this.lblSize4.Visible = false;
             // 
             // cbSize5
             // 
+            this.cbSize5.BackColor = System.Drawing.Color.White;
+            this.cbSize5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSize5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbSize5.FormattingEnabled = true;
+            this.cbSize5.Items.AddRange(new object[] {
+            "1MB",
+            "2MB",
+            "3MB",
+            "4MB",
+            "5MB",
+            "6MB",
+            "7MB",
+            "8MB",
+            "9MB",
+            "10MB",
+            "11MB",
+            "12MB"});
             this.cbSize5.Location = new System.Drawing.Point(119, 753);
             this.cbSize5.Name = "cbSize5";
             this.cbSize5.Size = new System.Drawing.Size(78, 25);
             this.cbSize5.TabIndex = 22;
-            this.cbSize5.Visible = false;
             // 
             // lblSize5
             // 
@@ -306,27 +366,6 @@ namespace PDF_Splitter
             this.lblSize5.Size = new System.Drawing.Size(79, 20);
             this.lblSize5.TabIndex = 21;
             this.lblSize5.Text = "Tamanho:";
-            this.lblSize5.Visible = false;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(293, 26);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(64, 18);
-            this.label14.TabIndex = 24;
-            this.label14.Text = "Origem";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label15.Location = new System.Drawing.Point(394, 26);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(62, 18);
-            this.label15.TabIndex = 25;
-            this.label15.Text = "Destino";
             // 
             // lblDestiny1
             // 
@@ -360,7 +399,7 @@ namespace PDF_Splitter
             this.btnOrigin5.TabIndex = 31;
             this.btnOrigin5.Text = "Origem...";
             this.btnOrigin5.UseVisualStyleBackColor = false;
-            this.btnOrigin5.Visible = false;
+            this.btnOrigin5.Click += new System.EventHandler(this.btnOrigin5_Click);
             // 
             // btnOrigin4
             // 
@@ -372,7 +411,7 @@ namespace PDF_Splitter
             this.btnOrigin4.TabIndex = 30;
             this.btnOrigin4.Text = "Origem...";
             this.btnOrigin4.UseVisualStyleBackColor = false;
-            this.btnOrigin4.Visible = false;
+            this.btnOrigin4.Click += new System.EventHandler(this.btnOrigin4_Click);
             // 
             // btnOrigin3
             // 
@@ -384,7 +423,7 @@ namespace PDF_Splitter
             this.btnOrigin3.TabIndex = 29;
             this.btnOrigin3.Text = "Origem...";
             this.btnOrigin3.UseVisualStyleBackColor = false;
-            this.btnOrigin3.Visible = false;
+            this.btnOrigin3.Click += new System.EventHandler(this.btnOrigin3_Click);
             // 
             // btnOrigin2
             // 
@@ -396,7 +435,7 @@ namespace PDF_Splitter
             this.btnOrigin2.TabIndex = 28;
             this.btnOrigin2.Text = "Origem...";
             this.btnOrigin2.UseVisualStyleBackColor = false;
-            this.btnOrigin2.Visible = false;
+            this.btnOrigin2.Click += new System.EventHandler(this.btnOrigin2_Click);
             // 
             // lblDestiny2
             // 
@@ -407,7 +446,6 @@ namespace PDF_Splitter
             this.lblDestiny2.Size = new System.Drawing.Size(171, 20);
             this.lblDestiny2.TabIndex = 32;
             this.lblDestiny2.Text = "Aguardando caminho";
-            this.lblDestiny2.Visible = false;
             // 
             // lblDestiny3
             // 
@@ -418,7 +456,6 @@ namespace PDF_Splitter
             this.lblDestiny3.Size = new System.Drawing.Size(171, 20);
             this.lblDestiny3.TabIndex = 33;
             this.lblDestiny3.Text = "Aguardando caminho";
-            this.lblDestiny3.Visible = false;
             // 
             // lblDestiny4
             // 
@@ -429,7 +466,6 @@ namespace PDF_Splitter
             this.lblDestiny4.Size = new System.Drawing.Size(171, 20);
             this.lblDestiny4.TabIndex = 34;
             this.lblDestiny4.Text = "Aguardando caminho";
-            this.lblDestiny4.Visible = false;
             // 
             // lblDestiny5
             // 
@@ -440,7 +476,6 @@ namespace PDF_Splitter
             this.lblDestiny5.Size = new System.Drawing.Size(171, 20);
             this.lblDestiny5.TabIndex = 35;
             this.lblDestiny5.Text = "Aguardando caminho";
-            this.lblDestiny5.Visible = false;
             // 
             // btnSplit
             // 
@@ -482,8 +517,6 @@ namespace PDF_Splitter
             this.Controls.Add(this.btnOrigin2);
             this.Controls.Add(this.btnDestiny1);
             this.Controls.Add(this.lblDestiny1);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
             this.Controls.Add(this.cbSize5);
             this.Controls.Add(this.lblSize5);
             this.Controls.Add(this.cbSize4);
@@ -543,8 +576,6 @@ namespace PDF_Splitter
         private System.Windows.Forms.Label lblSize4;
         private System.Windows.Forms.ComboBox cbSize5;
         private System.Windows.Forms.Label lblSize5;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label lblDestiny1;
         private System.Windows.Forms.Button btnDestiny1;
         private System.Windows.Forms.Button btnOrigin5;

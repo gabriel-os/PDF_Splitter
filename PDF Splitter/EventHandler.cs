@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace PDF_Splitter
 {
@@ -32,13 +27,13 @@ namespace PDF_Splitter
                     else
                     {
                         //Case user don't select destiny path
-                        MessageBox.Show("Inclua o caminho de destino do arquivo " + rightNameElement + " e tente novamente");
+                        //MessageBox.Show("Inclua o caminho de destino do arquivo " + rightNameElement + " e tente novamente");
                     }
                 }
                 else
                 {
                     //Case user don't select origin path
-                    MessageBox.Show("Inclua o caminho de origem do arquivo " + rightNameElement + " e tente novamente");
+                    //MessageBox.Show("Inclua o caminho de origem do arquivo " + rightNameElement + " e tente novamente");
                 }
             }
         }
