@@ -59,5 +59,14 @@ namespace PDF_Splitter.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream blade {
+            get {
+                return ResourceManager.GetStream("blade", resourceCulture);
+            }
+        }
     }
 }

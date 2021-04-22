@@ -1,5 +1,8 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
+using System.Media;
+using System.Reflection;
 using System.Windows.Forms;
 
 
@@ -32,22 +35,29 @@ namespace PDF_Splitter
 
             HandPDF hp = new HandPDF();
 
-            for (int i = 1; i > 5; i++)
+            string source_file, result;
+
+            for (int i = 1; i <= 5; i++)
             {
                 Label lbl_text_origin = this.Controls.Find("lblOrigin" + i, true).FirstOrDefault() as Label;
                 Label lbl_text_destiny = this.Controls.Find("lblDestiny" + i, true).FirstOrDefault() as Label;
                 ComboBox cb_size = this.Controls.Find("cbSize" + i, true).FirstOrDefault() as ComboBox;
 
+                source_file = lbl_text_origin.Text;
+                result = lbl_text_destiny.Text;
 
+                if (source_file != "Aguardando caminho" && result != "Aguardando caminho")
+                {
 
-                hp.RunSplitter(lbl_text_origin.Text, lbl_text_destiny.Text, GetBytesValue(cb_size.SelectedValue.ToString()));
+                    hp.RunSplitter(lbl_text_origin.Text, lbl_text_destiny.Text, GetBytesValue(cb_size.SelectedText.ToString()));
+
+                }
+
 
             }
-
-
-
-
-
+            //SoundPlayer audio = new SoundPlayer(Properties.Resources.blade); 
+            //audio.Play();
+            MessageBox.Show("Separação finalizada com sucesso!");
 
         }
         public string GetValueLabelDestiny(string numberRow)
@@ -236,3 +246,4 @@ namespace PDF_Splitter
         }
     }
 }
+
